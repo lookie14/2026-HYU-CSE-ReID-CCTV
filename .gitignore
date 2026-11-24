@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+
+# 모델 가중치는 GitHub Release에서 받음
+*.pt
+*.pth
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store

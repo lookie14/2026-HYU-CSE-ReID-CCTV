@@ -1,0 +1,11 @@
+# torch/torchvision: CUDA 빌드는 https://pytorch.org 의 설치 명령을 먼저 실행
+torch==2.5.1
+torchvision==0.20.1
+ultralytics==8.4.50
+fastapi==0.136.1
+uvicorn[standard]==0.46.0
+python-multipart==0.0.28
+pika==1.4.1
+numpy==2.4.3
+pillow==12.1.1
+PyYAML==6.0.3
