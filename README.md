@@ -46,7 +46,6 @@ cd backend && docker compose up -d     # pgvector(5433), redis(6379)
 ```bash
 cd backend && ./gradlew bootRun        # :8080, /ws/stream, /ws/dashboard
 ```
-> 시작 시 `DummyDataLoader`가 DB가 비어 있으면 성능 측정용 랜덤 벡터 1만 건을 넣는다. 필요 없으면 이 클래스의 `@Component`를 지운다.
 
 **AI 서버** (Python 3.11, GPU 권장)
 ```bash
